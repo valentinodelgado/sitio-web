@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html{
+    font-size: 62,5% 
+    }
+.cabeza{
+    background-color: black;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    width: 100%;
+}
+.duki{
+    text-decoration: none;
+    color: #FDF0D5;
+    margin-left: 1vw;
+}
+.listaa{
+    list-style: none;
+    display: inline;
+}
+.lista
+{
+    text-decoration: none;
+    color: #FDF0D5;
+    margin-right: 1vw;
+}
+.cuerpo{
+    margin: 0;
+    padding: 0;
+}
+.listaf{
+    display: inline;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #780000;
+}
+.img{
+    width: 20vw;
+    height: 180vh;
+    margin-left: 1vw;
+    border-left: #FDF0D5;
+    border-style: solid;
+    border-width: 0.5vw;
+}
+.linea{
+    display: inline;
+    font-size: 2rem;
+}
+.icon{
+    width: 3vw;
+    height: 5vh;
+    margin-right: 1vw;
+    display: inline;
+}
+.footer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.iconn{
+    width: 4vw;
+    height: 5vh;
+    margin-right: 1vw;
+    display: inline;
+}
+.aja{
+    margin-right: 17vw;
+    
+}
+.redes{
+    color: #FDF0D5;
+    margin-left: 1vw;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+}
+.principal{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: baseline;
+        background-color: #780000;
+}
+.subtitulos{
+    font-size: 2rem;
+    color: #FDF0D5;
+    margin-left: 1vw;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.titulos{
+    font-size: 3rem;
+    color: #FDF0D5;
+    margin-left: 1vw;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.parrafos{
+    font-size: 2rem;
+    color: #FDF0D5;
+    margin-left: 1vw;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.video{
+    width: 30vw;
+    height: 30vh;
+    margin-left: 1vw;
+}
+.espacio{
+    margin-left: 1vw;
+}
+.galeria{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #780000;
+}
+.fotos{
+    width: 30vw;
+    height: 30vh;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    border: #FDF0D5;
+    border-style: solid;
+    border-width: 0.5vw;
+}
+.discografia{
+    margin-right: 3vw;
+}
+.portadas{
+    width: 20vw;
+    height: 25vh;
+    margin-right: 10vw;
+    margin-bottom: 3vw;
+    border: #FDF0D5;
+    border-style: solid;
+    border-width: 0.5vw;
+}
+.contactom{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #780000;
+}
+.formulario{
+    margin-left: 1vw;
+    display: block;
+}
+.formu{
+    font-size: 2.2rem;
+    color: #FDF0D5;
+    display: block;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.boton{
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+.sobreti{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+    background-color: #780000;
+}
+.bloc{
+    font-size: 2rem;
+    color: #FDF0D5;
+    margin-left: 1vw;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.prueba{
+    margin-left: 1vw;
+    display: inline-block;
+}
+
+.espacio{
+    margin-bottom: 6vh;
+}
+.tamanio{
+    width: 30vw;
+}
