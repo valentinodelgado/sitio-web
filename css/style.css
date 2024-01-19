@@ -41,10 +41,11 @@ html{
     justify-content: space-between;
     align-items: flex-start;
     background-color: #780000;
+    height: 180vh;
 }
 .img{
     width: 20vw;
-    height: 180vh;
+    height: 100%;
     margin-left: 1vw;
     border-left: #FDF0D5;
     border-style: solid;
