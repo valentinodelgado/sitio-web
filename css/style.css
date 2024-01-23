@@ -8,6 +8,14 @@ html{
     font-size: 2rem;
     width: 100%;
 }
+@media (max-width: 480px){
+    .cabeza{
+        background-color: black;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.3rem;
+        width: 100%;
+    }
+}
 .duki{
     text-decoration: none;
     color: #FDF0D5;
@@ -61,6 +69,14 @@ html{
     margin-right: 1vw;
     display: inline;
 }
+@media (max-width: 480px){
+    .icon{
+        width: 8vw;
+        height: 6vh;
+        margin-right: 10vw;
+        display: inline;
+    }
+}
 .footer{
     display: flex;
     flex-flow: row nowrap;
@@ -74,6 +90,14 @@ html{
     margin-right: 1vw;
     display: inline;
 }
+@media (max-width: 480px){
+    .iconn{
+        width: 10vw;
+        height: 6vh;
+        margin-right: 10vw;
+        display: inline;
+    }
+}
 .aja{
     margin-right: 17vw;
     
@@ -83,6 +107,15 @@ html{
     margin-left: 1vw;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 1.5rem;
+}
+@media (max-width: 480px){
+    .redes{
+        color: #FDF0D5;
+        margin-left: 1vw;
+        margin-right: 7vw;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 1.4rem;
+    }
 }
 .principal{
         display: flex;
@@ -98,17 +131,41 @@ html{
     font-family: 'Bebas Neue', sans-serif;
 
 }
+@media (max-width: 480px){
+    .subtitulos{
+        font-size: 1rem;
+        color: #FDF0D5;
+        margin-left: 1vw;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+}
 .titulos{
     font-size: 3rem;
     color: #FDF0D5;
     margin-left: 1vw;
     font-family: 'Bebas Neue', sans-serif;
 }
+@media (max-width: 480px){
+    .titulos{
+        font-size: 1.2rem;
+        color: #FDF0D5;
+        margin-left: 1vw;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+}
 .parrafos{
     font-size: 2rem;
     color: #FDF0D5;
     margin-left: 1vw;
     font-family: 'Bebas Neue', sans-serif;
+}
+@media (max-width: 480px){
+    .parrafos{
+        font-size: 0.9rem;
+        color: #FDF0D5;
+        margin-left: 1vw;
+        font-family: 'Bebas Neue', sans-serif;
+    }
 }
 .video{
     width: 30vw;
@@ -146,6 +203,17 @@ html{
     border: #FDF0D5;
     border-style: solid;
     border-width: 0.5vw;
+}
+@media (max-width: 480px){
+    .portadas{
+        width: 18vw;
+        height: 20vh;
+        margin-right: 10vw;
+        margin-bottom: 3vw;
+        border: #FDF0D5;
+        border-style: solid;
+        border-width: 0.5vw;
+    }
 }
 .contactom{
     display: flex;
