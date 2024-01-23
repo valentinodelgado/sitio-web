@@ -133,7 +133,7 @@ html{
 }
 @media (max-width: 480px){
     .subtitulos{
-        font-size: 1rem;
+        font-size: 1.2rem;
         color: #FDF0D5;
         margin-left: 1vw;
         font-family: 'Bebas Neue', sans-serif;
@@ -147,7 +147,7 @@ html{
 }
 @media (max-width: 480px){
     .titulos{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         color: #FDF0D5;
         margin-left: 1vw;
         font-family: 'Bebas Neue', sans-serif;
@@ -172,8 +172,22 @@ html{
     height: 30vh;
     margin-left: 1vw;
 }
+@media (max-width: 480px){
+    .video{
+        height: 280px;;
+        width: 360px;
+        margin-left: 1vw;
+    }
+}
 .espacio{
     margin-left: 1vw;
+}
+@media (max-width: 480px){
+    .espacio{
+        margin-left: 1vw;
+        height: 280px;;
+        width: 360px;
+    }
 }
 .galeria{
     display: flex;
