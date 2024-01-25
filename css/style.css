@@ -216,7 +216,7 @@ html{
 @media only screen and (min-width: 300px) and (max-width: 480px){
     .video{
         height: 280px;;
-        width: 350px;
+        width: 340px;
         margin-left: 1vw;
     }
 }
@@ -227,7 +227,7 @@ html{
     .espacio{
         margin-left: 1vw;
         height: 280px;;
-        width: 350px;
+        width: 340px;
     }
 }
 .galeria{
