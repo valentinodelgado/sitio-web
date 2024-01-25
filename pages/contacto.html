@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Duki</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="cuerpo">
     <header class="cabeza">
         <nav class="menu">
-            <a class="duki" href="../index.html">DUKI</a>
+            <a class="duki agregar" href="../index.html">DUKI</a>
             <ul class="listaa">
                 <li class="listaf">
-                    <a href="./hitos.html" class="lista">HITOS</a>
+                    <a href="./hitos.html" class="lista agregar">HITOS</a>
                 </li>
                 <li class="listaa">
-                    <a href="./recorrido.html"class="lista">SOBRE TI</a>
+                    <a href="./recorrido.html"class="lista agregar">SOBRE TI</a>
                 </li>
                 <li class="listaf">
-                    <a href="./galeria.html"class="lista">GALERIA</a>
+                    <a href="./galeria.html"class="lista agregar">GALERIA</a>
                 </li>
                 <li class="listaf">
-                    <a href="./contacto.html"class="lista">CONTACTO</a>
+                    <a href="./contacto.html"class="lista agregar">CONTACTO</a>
                 </li>
             </ul>
         </nav>
@@ -35,18 +36,18 @@
             <form class="formulario">
                 <fieldset>
                     <legend class="subtitulos">Completar:</legend>
-                    <label class="formu" for="nombre">Nombre y apellido:</label>
+                    <label id="formuu" for="nombre">Nombre y apellido:</label>
                     <input type="text" name="nombre" placeholder="Tu nombre y apellido">
-                    <label class="formu" for="mail">Email:</label>
+                    <label id="formuu" for="mail">Email:</label>
                     <input type="email" name="mail" placeholder="Tu Mail">
-                    <label class="formu" for="evento">Tipo de evento:</label>
+                    <label id="formuu" for="evento">Tipo de evento:</label>
                     <input type="text" name="evento" placeholder="Evento">
-                    <label class="formu" for="horas">Cantidad de horas:</label>
+                    <label id="formuu" for="horas">Cantidad de horas:</label>
                     <input type="text" name="horas" placeholder="Horas">
-                    <label class="formu" for="telefono">Numero de telefono:</label>
+                    <label id="formuu" for="telefono">Numero de telefono:</label>
                     <input type="text" name="telefono" placeholder="Tu telefono">
-                    <input class="boton" type="submit" value="Enviar">
-                    <input class="boton" type="reset" value="Restablecer">
+                    <input class="btn btn-outline-secondary boton" type="submit" value="Enviar">
+                    <input class="btn btn-outline-secondary boton" type="reset" value="Restablecer">
                 </fieldset>
             </form> 
         </section>

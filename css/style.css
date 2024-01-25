@@ -7,12 +7,16 @@ html{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3rem;
     width: 100%;
+    height: 100px;
+}
+.agregar:hover{
+    font-size: 3.5rem;
 }
 @media only screen and (min-width: 300px) and (max-width: 480px){
     .cabeza{
         background-color: black;
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 2rem;
+        font-family: 'Bebas Neue', sans-serif !important;
+        font-size: 2.5rem;
         width: 100%;
     }
 }
@@ -42,6 +46,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 .div{
     display: flex;
@@ -71,8 +76,8 @@ html{
 }
 @media only screen and (min-width: 300px) and (max-width: 480px){
     .icon{
-        width: 8vw;
-        height: 6vh;
+        width: 7vw;
+        height: 5vh;
         margin-right: 10vw;
         display: inline;
     }
@@ -83,6 +88,30 @@ html{
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    height: 112.1px;
+    width: 100%;
+}
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    .footer{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        height: 111.1px;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    .footer{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        height: 117.1px;
+        width: 100%;
+    }
 }
 .iconn{
     width: 4vw;
@@ -92,8 +121,8 @@ html{
 }
 @media only screen and (min-width: 300px) and (max-width: 480px){
     .iconn{
-        width: 10vw;
-        height: 6vh;
+        width: 9vw;
+        height: 5vh;
         margin-right: 10vw;
         display: inline;
     }
@@ -112,9 +141,9 @@ html{
     .redes{
         color: #FDF0D5;
         margin-left: 1vw;
-        margin-right: 7vw;
+        margin-right: 12vw;
         font-family: 'Bebas Neue', sans-serif;
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
 }
 .principal{
@@ -129,6 +158,7 @@ html{
     color: #FDF0D5;
     margin-left: 1vw;
     font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
 
 }
 @media only screen and (min-width: 300px) and (max-width: 480px){
@@ -137,6 +167,7 @@ html{
             color: #FDF0D5;
             margin-left: 1vw;
             font-family: 'Bebas Neue', sans-serif;
+            font-weight: bold;
         }
 }
 .titulos{
@@ -144,6 +175,7 @@ html{
     color: #FDF0D5;
     margin-left: 1vw;
     font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
 }
 @media only screen and (min-width: 300px) and (max-width: 480px){
     .titulos{
@@ -151,6 +183,7 @@ html{
         color: #FDF0D5;
         margin-left: 1vw;
         font-family: 'Bebas Neue', sans-serif;
+        font-weight: bold;
     }
 }
 .parrafos{
@@ -254,11 +287,21 @@ html{
     display: block;
     font-family: 'Bebas Neue', sans-serif;
 }
+#formuu{
+    font-size: 3rem;
+    color: #FDF0D5;
+    display: block;
+    font-family: 'Bebas Neue', sans-serif;
+}
 .boton{
     font-size: 1.8rem;
     display: block;
     margin-bottom: 1vh;
     margin-top: 1vh;
+    background-color: #FDF0D5;
+}
+.boton:hover{
+    font-size: 2.3rem;
 }
 .sobreti{
     display: flex;
@@ -269,7 +312,7 @@ html{
     background-color: #780000;
 }
 .bloc{
-    font-size: 2rem;
+    font-size: 3rem;
     color: #FDF0D5;
     margin-left: 1vw;
     font-family: 'Bebas Neue', sans-serif;
@@ -284,4 +327,80 @@ html{
 }
 .tamanio{
     width: 30vw;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Bebas Neue', sans-serif;
+}  
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-left: 1vw;
+    font-size: 3.8rem ;
+}
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    h2{
+        font-size: 3rem;
+    }
+    
+}
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-left: 1vw;
+}
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+}
+form {
+    margin-top: 0em;
+}
+legend {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    float: none;
+    width: 8.4%;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 0.95em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+input{
+    font-size: 1.5rem;
 }
