@@ -237,6 +237,14 @@ html{
     align-items: stretch;
     background-color: #780000;
 }
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    .galeri{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        background-color: #780000;
+    }
+}
 .fotos{
     width: 30vw;
     height: 30vh;
@@ -246,6 +254,18 @@ html{
     border: #FDF0D5;
     border-style: solid;
     border-width: 0.5vw;
+}
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    .fotos{
+        width: 90vw;
+        height: 25vh;
+        margin-left: 4vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        border: #FDF0D5;
+        border-style: solid;
+        border-width: 0.5vw;
+    }
 }
 .discografia{
     margin-right: 3vw;
