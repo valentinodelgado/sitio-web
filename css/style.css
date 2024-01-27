@@ -313,12 +313,29 @@ html{
     display: block;
     font-family: 'Bebas Neue', sans-serif;
 }
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    #formuu{
+        font-size: 2rem;
+        color: #FDF0D5;
+        display: block;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+}
 .boton{
     font-size: 1.8rem;
     display: block;
     margin-bottom: 1vh;
     margin-top: 1vh;
     background-color: #FDF0D5;
+}
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    .boton{
+        font-size: 1.3rem;
+        display: block;
+        margin-bottom: 1vh;
+        margin-top: 1vh;
+        background-color: #FDF0D5;
+    }
 }
 .boton:hover{
     font-size: 2.3rem;
@@ -423,4 +440,18 @@ ul {
 }
 input{
     font-size: 1.5rem;
+}
+.parrafosc{
+    font-size: 3rem;
+    color: #FDF0D5;
+    margin-left: 1vw;
+    font-family: 'Bebas Neue', sans-serif;
+}
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    .parrafosc{
+        font-size: 1.8rem;
+        color: #FDF0D5;
+        margin-left: 1vw;
+        font-family: 'Bebas Neue', sans-serif;
+    }
 }
