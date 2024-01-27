@@ -394,6 +394,7 @@ html{
     .espacio{
         margin-block: 13vw;
         padding-block-end: 17vh;
+        width: 91vw;
     }
 }
 h1, h2, h3, h4, h5, h6, p {
