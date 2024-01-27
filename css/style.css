@@ -307,6 +307,15 @@ html{
     display: block;
     font-family: 'Bebas Neue', sans-serif;
 }
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    .formu{
+        font-size: 2.7rem;
+        height: 6.9vw;
+        color: #FDF0D5;
+        display: block;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+}
 #formuu{
     font-size: 3rem;
     color: #FDF0D5;
@@ -348,6 +357,22 @@ html{
     align-content: stretch;
     background-color: #780000;
 }
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    .sobreti{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        background-color: #780000;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    .block{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        background-color: #780000;
+    }
+}
 .bloc{
     font-size: 3rem;
     color: #FDF0D5;
@@ -365,7 +390,12 @@ html{
 .tamanio{
     width: 30vw;
 }
-
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    .espacio{
+        margin-block: 13vw;
+        padding-block-end: 17vh;
+    }
+}
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Bebas Neue', sans-serif;
 }  
