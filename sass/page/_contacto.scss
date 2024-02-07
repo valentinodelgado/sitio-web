@@ -1,0 +1,57 @@
+.cuerpo{
+    margin: 0;
+    padding: 0;
+    .contactom{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        background-color: $rojo;
+        .titulos{
+            font-size: 5rem;
+            color: $beige;
+            margin-left: 1vw;
+            font-family: $fuente;
+            font-weight: bold;
+        }
+        section{
+            .parrafosc{
+                font-size: 3rem;
+                color: $beige;
+                margin-left: 1vw;
+                font-family: $fuente;
+            }
+            .subtitulos{
+                font-size: 4rem;
+                color: $beige;
+                margin-left: 1vw;
+                font-family: $fuente;
+                font-weight: bold;
+            }
+            .formulario{
+                margin-left: 1vw;
+                display: block;
+                #formuu{
+                    font-size: 3rem;
+                    color: $beige;
+                    display: block;
+                    font-family: $fuente;
+                }
+                .subtitulos{
+                    font-size: 4rem;
+                    color: $beige;
+                    margin-left: 1vw;
+                    font-family: $fuente;
+                    font-weight: bold;
+                }
+                .boton{
+                    font-size: 1.8rem;
+                    display: block;
+                    margin-bottom: 1vh;
+                    margin-top: 1vh;
+                    background-color: $beige;
+                }
+            }
+        }
+    }
+}

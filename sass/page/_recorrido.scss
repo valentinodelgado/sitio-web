@@ -1,0 +1,57 @@
+.cuerpo{
+    margin: 0;
+    padding: 0;
+    .sobreti{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: stretch;
+        background-color: $rojo;
+        .bloc{
+            font-size: 3rem;
+            color: $beige;
+            margin-left: 1vw;
+            font-family: $fuente;
+        }
+        .titulos{
+            font-size: 5rem;
+            color: $beige;
+            margin-left: 1vw;
+            font-family: $fuente;
+            font-weight: bold;
+        }
+        section{
+            .tamanio{
+                width: 30vw;
+            }
+            .prueba{
+                margin-left: 1vw;
+                display: inline-block;
+                .espacio{
+                    margin-bottom: 6vh;
+                    .formu{
+                        font-size: 3rem;
+                        color: $beige;
+                        display: block;
+                        font-family: $fuente;
+                    }
+                    .subtitulos{
+                        font-size: 4rem;
+                        color: $beige;
+                        margin-left: 1vw;
+                        font-family: $fuente;
+                        font-weight: bold;
+                    }
+                    .boton{
+                        font-size: 1.8rem;
+                        display: block;
+                        margin-bottom: 1vh;
+                        margin-top: 1vh;
+                        background-color: $beige;
+                    }
+                }
+            }
+        }
+    }
+}

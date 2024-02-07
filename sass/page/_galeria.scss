@@ -1,0 +1,28 @@
+.cuerpo{
+    margin: 0;
+    padding: 0;
+    .galeria{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        background-color: $rojo;
+        .titulos{
+            font-size: 5rem;
+            color: $beige;
+            margin-left: 1vw;
+            font-family: $fuente;
+            font-weight: bold;
+        }
+        .fotos{
+            width: 30vw;
+            height: 30vh;
+            margin-left: 1vw;
+            margin-top: 1vw;
+            margin-bottom: 1vw;
+            border: #FDF0D5;
+            border-style: solid;
+            border-width: 0.5vw;
+        }
+    }
+}

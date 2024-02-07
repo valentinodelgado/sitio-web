@@ -1,0 +1,42 @@
+.cuerpo{
+    margin: 0;
+    padding: 0;
+    .principal{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: baseline;
+        background-color: $rojo;
+        .titulos{
+            font-size: 5rem;
+            color: $beige;
+            margin-left: 1vw;
+            font-family: $fuente;
+            font-weight: bold;
+        }
+            .subtitulos{
+                font-size: 4rem;
+                color: $beige;
+                margin-left: 1vw;
+                font-family: $fuente;
+                font-weight: bold;
+            }
+            .parrafos{
+                font-size: 3rem;
+                color: $beige;
+                margin-left: 1vw;
+                font-family: $fuente;
+            }
+            .video{
+                width: 30vw;
+                height: 30vh;
+                margin-left: 1vw;
+            }
+            .espacio{
+                margin-left: 1vw;
+            }
+            .river{
+                margin-bottom: 3vw;
+            }
+            }
+        }       

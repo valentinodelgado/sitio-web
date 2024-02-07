@@ -1,0 +1,74 @@
+.cuerpo{
+    margin: 0;
+    padding: 0;
+    .cabeza{
+        background-color: black;
+        font-family: $fuente;
+        font-size: 3rem;
+        width: 100%;
+        height: 100px;
+        .menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            .duki{
+                text-decoration: none;
+                color: $beige;
+                margin-left: 1vw;
+            }
+            .agregar:hover{
+                font-size: 3.5rem;
+            }
+            .listaa{
+                list-style: none;
+                display: inline;
+                .listaf{
+                    display: inline;
+                    .lista{
+                        text-decoration: none;
+                        color: $beige;
+                        margin-right: 1vw;
+                    }
+                    .agregar:hover{
+                        font-size: 3.5rem;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        height: 112.1px;
+        width: 100%;
+        .redes{
+            color: $beige;
+            margin-left: 1vw;
+            font-family: $fuente;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .icon{
+            width: 3vw;
+            height: 5vh;
+            margin-right: 1vw;
+            display: inline;
+        }
+        .iconn{
+            width: 4vw;
+            height: 5vh;
+            margin-right: 1vw;
+            display: inline;
+        }
+        .icons{
+            width: 3vw;
+            height: 5vh;
+            margin-right: 18vw;
+            display: inline;
+        }
+    }
+}

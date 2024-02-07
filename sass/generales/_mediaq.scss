@@ -1,0 +1,340 @@
+/*mobile*/
+/*index*/
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    .cuerpo{
+        margin: 0;
+        padding: 0;
+        .div{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            background-color: $rojo;
+            height: 180vh;
+            .titulos{
+                font-size: 2.5rem;
+                color: $beige;
+                margin-left: 1vw;
+                font-family: $fuente;
+                font-weight: bold;
+            }
+            section{
+                .parrafos{
+                    font-size: 1.4rem;
+                    color: $beige;
+                    margin-left: 1vw;
+                    font-family: $fuente;
+                }
+                .subtitulos{
+                    font-size: 2rem;
+                    color: $beige;
+                    margin-left: 1vw;
+                    font-family: $beige;
+                    font-weight: bold;
+                }
+                a{
+                    .portadas{
+                        width: 45%;
+                        height: 20vh;
+                        margin-right: 1vw;
+                        margin-bottom: 3vw;
+                        border: $beige;
+                        border-style: solid;
+                        border-width: 0.5vw;
+                    }
+                }
+            }
+        }    
+    }        
+}
+@media only screen and (min-width: 412px) and (max-width: 480px){
+    .parrafos{
+        font-size: 1.75rem;
+        color: #FDF0D5;
+        margin-left: 1vw;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    /*contacto*/
+    .cuerpo{
+        margin: 0;
+        padding: 0;
+        .contactom{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items: stretch;
+            background-color: $rojo;
+            .titulos{
+                font-size: 2.5rem;
+                color: $beige;
+                margin-left: 1vw;
+                font-family: $fuente;
+                font-weight: bold;
+            }    
+            section{
+                    .parrafosc{
+                        font-size: 1.8rem;
+                        color: $beige;
+                        margin-left: 1vw;
+                        font-family: $fuente;
+                    }
+                    .subtitulos{
+                        font-size: 2rem;
+                        color: $beige;
+                        margin-left: 1vw;
+                        font-family: $beige;
+                        font-weight: bold;
+                    }
+                    .formulario{
+                            .subtitulos{
+                                font-size: 2rem;
+                                color: $beige;
+                                margin-left: 1vw;
+                                font-family: $beige;
+                                font-weight: bold;
+                            }
+                            #formuu{
+                                font-size: 2rem;
+                                color: $beige;
+                                display: block;
+                                font-family: $fuente;
+                            }
+                            .boton{
+                                font-size: 1.3rem;
+                                display: block;
+                                margin-bottom: 1vh;
+                                margin-top: 1vh;
+                                background-color: $beige;
+                            }
+                        
+                    }
+                }
+        }    
+    }        
+}
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    /*galeria*/
+    .cuerpo{
+        margin: 0;
+        padding: 0;
+        .galeria{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: stretch;
+            background-color: $rojo;
+            .galeri{
+                display: flex;
+                flex-flow: column wrap;
+                align-items: center;
+                background-color: $rojo;
+                .fotos{
+                    width: 90vw;
+                    height: 25vh;
+                    margin-left: 4vw;
+                    margin-top: 3vw;
+                    margin-bottom: 3vw;
+                    border: $beige;
+                    border-style: solid;
+                    border-width: 0.5vw;
+                }
+            }
+            .titulos{
+                font-size: 2.5rem;
+                color: $beige;
+                margin-left: 1vw;
+                font-family: $fuente;
+                font-weight: bold;
+            }   
+        }
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    /*hitos*/
+    .cuerpo{
+        margin: 0;
+        padding: 0;
+        .principal{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            align-items: baseline;
+            background-color: $rojo;
+            .titulos{
+                font-size: 2.5rem;
+                color: $beige;
+                margin-left: 1vw;
+                font-family: $fuente;
+                font-weight: bold;
+            }
+                .subtitulos{
+                    font-size: 2rem;
+                    color: $beige;
+                    margin-left: 1vw;
+                    font-family: $beige;
+                    font-weight: bold;
+                }
+                .parrafos{
+                    font-size: 1.4rem;
+                    color: $beige;
+                    margin-left: 1vw;
+                    font-family: $fuente;
+                    }
+                .espacio{
+                    margin-left: 1vw;
+                    height: 280px;;
+                    width: 340px;
+                    }
+                .video{
+                    height: 280px;;
+                    width: 340px;
+                    margin-left: 1vw;
+                    }
+        }
+    }        
+}
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    /*recorrido*/
+    .cuerpo{
+        margin: 0;
+        padding: 0;
+        .sobreti{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            background-color: $rojo;
+            .titulos{
+                font-size: 2.5rem;
+                color: $beige;
+                margin-left: 1vw;
+                font-family: $fuente;
+                font-weight: bold;
+            }
+            .block{
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: center;
+                background-color: $rojo;
+                .tamanio{
+                    width: 30vw;
+                }
+                .prueba{
+                    margin-left: 1vw;
+                    display: inline-block;
+                    .espacio{
+                        margin-block: 10vw;
+                        padding-block-end: 2vh;
+                        width: 80vw;
+                        .formu{
+                            font-size: 2.7rem;
+                            height: 6.9vw;
+                            color: $beige;
+                            display: block;
+                            font-family: $fuente;
+                        }
+                        .subtitulos{
+                            font-size: 2rem;
+                            color: $beige;
+                            margin-left: 1vw;
+                            font-family: $fuente;
+                            font-weight: bold;
+                        }
+                        .boton{
+                            font-size: 1.3rem;
+                            display: block;
+                            margin-bottom: 1vh;
+                            margin-top: 1vh;
+                            background-color: $beige;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    /*header*/
+    .cuerpo{
+        margin: 0;
+        padding: 0;
+        .cabeza{
+            background-color: black;
+            font-family: $fuente !important;
+            font-size: 2.5rem;
+            width: 100%;
+            .menu{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                height: 100%;
+                .duki{
+                    text-decoration: none;
+                    color: $beige;
+                    margin-left: 1vw;
+                }
+                .agregar:hover{
+                    font-size: 3.5rem;
+                }
+                .listaa{
+                    list-style: none;
+                    display: inline;
+                    .listaf{
+                        display: inline;
+                        .lista{
+                            text-decoration: none;
+                            color: $beige;
+                            margin-right: 1vw;
+                        }
+                        .agregar:hover{
+                            font-size: 3.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }    
+}
+@media only screen and (min-width: 300px) and (max-width: 480px){
+    /*footer*/
+    .cuerpo{
+        margin: 0;
+        padding: 0;
+        .footer{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            height: 111.1px;
+            width: 100%;
+            .redes{
+                color: $beige;
+                margin-left: 1vw;
+                margin-right: 7vw;
+                font-family: $fuente;
+                font-size: 2rem;
+            }
+            .iconn{
+                width: 14vw;
+                height: 5vh;
+                margin-right: 6vw;
+                display: inline;
+            }
+            .icon{
+                width: 10vw;
+                height: 5vh;
+                margin-right: 6vw;
+                display: inline;
+            }
+            .icons{
+                width: 10vw;
+                height: 5vh;
+                margin-right: 6vw;
+                display: inline;
+            }
+        }
+    }    
+}
+/*tablet*/
