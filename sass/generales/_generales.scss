@@ -71,3 +71,8 @@ ul {
 input{
     font-size: 1.5rem;
 }
+@mixin flex-row-space{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}

@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
     .div{
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-between;
+        @include flex-row-space;
         align-items: flex-start;
         background-color: $rojo;
         height: 180vh;
