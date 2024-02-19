@@ -1911,3 +1911,162 @@
         }    
     }        
 }
+@media only screen and (max-height: 265px) and (min-height: 0px){
+    .cuerpo{
+        margin: 0;
+        padding: 0;
+        .div{
+            @include flex-row-space;
+            align-items: flex-start;
+            background-color: $rojo;
+            height: auto;
+            .titulos{
+                font-size: 2.7rem;
+                color: $beige;
+                margin-left: 1vw;
+                font-family: $fuente;
+                font-weight: bold;
+            }
+            section{
+                .parrafos{
+                    font-size: 1.7rem;
+                    color: $beige;
+                    margin-left: 1vw;
+                    font-family: $fuente;
+                }
+                .subtitulos{
+                    font-size: 2.5rem;
+                    color: $beige;
+                    margin-left: 1vw;
+                    font-family: $beige;
+                    font-weight: bold;
+                }
+                a{
+                    .portadas{
+                        width: 45%;
+                        height: 30vh;
+                        margin-right: 1vw;
+                        margin-bottom: 3vw;
+                        border: $beige;
+                        border-style: solid;
+                        border-width: 0.5vw;
+                    }
+                }
+            }
+            .img{
+                width: 20vw;
+                height: 100%;
+                margin-left: 1vw;
+                border-left: #FDF0D5;
+                border-style: solid;
+                border-width: 0.5vw;
+            }
+        }    
+    }        
+}
+@media only screen and (max-height: 390px) and (min-width: 630px) and (max-width: 815px) and (min-height: 290px){
+    .cuerpo{
+        margin: 0;
+        padding: 0;
+        .div{
+            @include flex-row-space;
+            align-items: flex-start;
+            background-color: $rojo;
+            height: 300vh;
+            .titulos{
+                font-size: 2.7rem;
+                color: $beige;
+                margin-left: 1vw;
+                font-family: $fuente;
+                font-weight: bold;
+            }
+            section{
+                .parrafos{
+                    font-size: 1.5rem;
+                    color: $beige;
+                    margin-left: 1vw;
+                    font-family: $fuente;
+                }
+                .subtitulos{
+                    font-size: 2.5rem;
+                    color: $beige;
+                    margin-left: 1vw;
+                    font-family: $beige;
+                    font-weight: bold;
+                }
+                a{
+                    .portadas{
+                        width: 45%;
+                        height: 30vh;
+                        margin-right: 1vw;
+                        margin-bottom: 3vw;
+                        border: $beige;
+                        border-style: solid;
+                        border-width: 0.5vw;
+                    }
+                }
+            }
+            .img{
+                width: 20vw;
+                height: 100%;
+                margin-left: 1vw;
+                border-left: #FDF0D5;
+                border-style: solid;
+                border-width: 0.5vw;
+            }
+        }    
+    }        
+}
+@media only screen and (min-width: 414px) and (max-width: 781px) and (min-height: 560px){
+    .cuerpo{
+        margin: 0;
+        padding: 0;
+        .div{
+            @include flex-row-space;
+            align-items: flex-start;
+            background-color: $rojo;
+            height: 300vh;
+            .titulos{
+                font-size: 2.7rem;
+                color: $beige;
+                margin-left: 1vw;
+                font-family: $fuente;
+                font-weight: bold;
+            }
+            section{
+                .parrafos{
+                    font-size: 1.8rem;
+                    color: $beige;
+                    margin-left: 1vw;
+                    font-family: $fuente;
+                }
+                .subtitulos{
+                    font-size: 2.5rem;
+                    color: $beige;
+                    margin-left: 1vw;
+                    font-family: $beige;
+                    font-weight: bold;
+                }
+                a{
+                    .portadas{
+                        width: 45%;
+                        height: 30vh;
+                        margin-right: 1vw;
+                        margin-bottom: 3vw;
+                        border: $beige;
+                        border-style: solid;
+                        border-width: 0.5vw;
+                    }
+                }
+            }
+            .img{
+                width: 20vw;
+                height: 100%;
+                margin-left: 1vw;
+                border-left: #FDF0D5;
+                border-style: solid;
+                border-width: 0.5vw;
+            }
+        }    
+    }        
+}
